@@ -5,7 +5,7 @@ function verificaTriang(...lados){
     if (lados[0] === lados[1] && lados[1] === lados[2] && lados[2]===lados[0]){
         return "Equilátero"
     }
-    if (lados[0] !== lados[1] && lados[1] !== lados[2] && lados[2] !== lados[0]){
+    else if (lados[0] !== lados[1] && lados[1] !== lados[2] && lados[2] !== lados[0]){
         return "Escaleno"
     }
     else{
