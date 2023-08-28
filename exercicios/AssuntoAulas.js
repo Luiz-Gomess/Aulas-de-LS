@@ -63,3 +63,19 @@
 //     }
 //     console.log(`${i} é Primo.`)
 // }
+
+
+//ARRAY
+
+const array = [1,2,'3']
+
+console.log(array[1] - array[2])
+
+array.push(5)
+console.log(array)
+array.push(10)
+console.log(array)
+array.push(15)
+console.log(array)
+array.pop(15)
+console.log(array)
