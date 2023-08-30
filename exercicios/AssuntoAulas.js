@@ -79,3 +79,70 @@ array.push(15)
 console.log(array)
 array.pop(15)
 console.log(array)
+
+//const array = [19, 2, 1, 18, 15, 3, 35, 10,8,80,50,24]
+//
+//const ordenaMenorMaior = (a, b) => a - b
+//
+//console.log(array.sort())
+//console.log("---------------------")
+//console.log(array.sort(ordenaMenorMaior))
+
+
+//console.log(array.splice(1, 1))
+//console.log(array)
+//console.log(array.includes(3))
+//console.log(array.slice(1,2))
+
+//function multiplicacao(elem) {
+//    console.log(elem * 2)
+//}
+
+//array.forEach(multiplicacao)
+
+//array.map{
+//const arrayDuplicado = array.map(
+//    (elem) => elem*2
+//    )
+//console.log(arrayDuplicado)
+//}
+
+
+//const arrayPar = array.filter(
+//    (elem)=> {
+//        const isPar = elem %2 === 0;
+//        const menorQue50 = (elem<= 50)?true:false;
+//
+//        return isPar && menorQue50
+//    }
+//    )
+//console.log(arrayPar)
+//
+//const array2 = [1,2,3,4]
+//console.log("--------------------------")
+//console.log(array2)
+//const somatorio = array2.reduce(
+//    (total,valorAtual) => total + valorAtual
+//)
+//console.log(somatorio)
+//
+//const somatorioPares = array2.filter(
+//    (elem) => elem %2 ===0
+//).reduce(
+//    (total,valorAtual) => total + valorAtual 
+//)
+//
+//console.log(somatorioPares)
+
+
+
+const array1 = [1,2,3,4,5,6,7,8,9]
+
+let SomatorioImpares = array1.filter( 
+    ((elem) => elem %2 === 1)
+).map{
+    const arrayDuplicado = 
+    ((elem)=>elem *2)}
+// .reduce((total,valorAtual) => total * valorAtual )
+console.log(SomatorioImpares)
+
