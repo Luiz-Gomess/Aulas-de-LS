@@ -67,18 +67,18 @@
 
 //ARRAY
 
-const array = [1,2,'3']
+// const array = [1,2,'3']
 
-console.log(array[1] - array[2])
+// console.log(array[1] - array[2])
 
-array.push(5)
-console.log(array)
-array.push(10)
-console.log(array)
-array.push(15)
-console.log(array)
-array.pop(15)
-console.log(array)
+// array.push(5)
+// console.log(array)
+// array.push(10)
+// console.log(array)
+// array.push(15)
+// console.log(array)
+// array.pop(15)
+// console.log(array)
 
 //const array = [19, 2, 1, 18, 15, 3, 35, 10,8,80,50,24]
 //
@@ -136,13 +136,54 @@ console.log(array)
 
 
 
-const array1 = [1,2,3,4,5,6,7,8,9]
+// const array1 = [1,2,3,4,5,6,7,8,9]
 
-let SomatorioImpares = array1.filter( 
-    ((elem) => elem %2 === 1)
-).map{
-    const arrayDuplicado = 
-    ((elem)=>elem *2)}
-// .reduce((total,valorAtual) => total * valorAtual )
-console.log(SomatorioImpares)
+// let SomatorioImpares = array1.filter( 
+//     ((elem) => elem %2 === 1)
+// ).map{
+//     const arrayDuplicado = 
+//     ((elem)=>elem *2)}
+// // .reduce((total,valorAtual) => total * valorAtual )
+// console.log(SomatorioImpares)
 
+
+
+//OBJETOS 
+
+/*
+const pessoa = {
+    nome: 'Francisco',
+    sobrenome: 'Dantas',
+    ehProfessor: true,
+    idade: 40,
+    email: 'dantas.nobre@ifpb.edu.br',
+    obterNomeCompleto: function() {
+        return this.nome + " " + this.sobrenome
+    }
+}
+
+console.log(pessoa.obterNomeCompleto())
+console.log("Idade: ",pessoa.idade)
+pessoa.nome = 'Luiz'
+pessoa.sobrenome = 'Albuquerque'
+console.log(pessoa.obterNomeCompleto())
+
+const pessoa2 = {...pessoa, curso: 'Sistemas para Internet'}
+pessoa2.nome = 'Maria'
+console.log(pessoa2.nome)
+console.log(pessoa.nome)
+pessoa.curso = 'Engenharia'
+console.log(pessoa.curso)
+console.log(pessoa2.curso)
+*/
+
+
+const arrayObjd = [
+    {nome: 'Francisco', disciplina: 'LS'},
+    {nome: 'Luiz', disciplina: 'LS'},
+    {nome: 'Maria', disciplina: 'Matemática'}
+]
+
+for(const obj of arrayObjd){
+    console.log(obj)
+}
