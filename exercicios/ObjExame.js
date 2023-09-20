@@ -10,7 +10,7 @@ class Exame{
     }
     gerarNotaAluno(){
     let nota = 0
-        for(let i = 0; i = this.respostasAluno.length;i++ ){
+        for(let i = 0; i < this.respostasAluno.length;i++ ){
             if (this.respostasAluno[i] === this.gabarito[i]){
                 nota += 2
             }
